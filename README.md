@@ -2,5 +2,5 @@
 Stuff for Parrot Bebop hacking
 
 Contents:
-latest release of the Unofficial Bebop hacking Guide (file UBHG_release_number.pdf)
-+ some other stuff
+- latest release of the Unofficial Bebop hacking Guide (file UBHG_release_number.pdf)
+- some other stuff
