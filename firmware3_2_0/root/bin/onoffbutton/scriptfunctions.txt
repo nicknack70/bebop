@@ -1,0 +1,15 @@
+shortpress_1: shut down ######## DO NOT TOUCH
+shortpress_2: FPV on 120° stab OFF
+shortpress_3: FPV off (restart dragon-prog)
+shortpress_4: telnet on ######## DO NOT TOUCH
+shortpress_5: copy media to USB drive
+shortpress_6: delete media directory (if copied)
+shortpress_7: FPV on 120° stab ON
+shortpress_8: save GPS data
+shortpress_9: failsafe
+shortpress_10:
+shortpress_11:
+shortpress_12: telnet on (same as shortpress_4, for safety)
+shortpress_13: usb networking ## DO NOT TOUCH
+
+longpress_0: switch wifi band
