@@ -1,0 +1,57 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;\red251\green0\blue7;\red38\green38\blue38;\red242\green242\blue242;
+}
+\paperw11900\paperh16840\margl1440\margr1440\vieww20880\viewh12640\viewkind0
+\deftab720
+\pard\pardeftab720
+
+\f0\fs32 \cf0 \expnd0\expndtw0\kerning0
+No worries.\'a0 You might want to open the 2.0.57 or the 3.2.0 firmware file in a hex editor like UltraEdit.\'a0\
+(or try {\field{\*\fldinst{HYPERLINK "https://hexed.it/?hl=en"}}{\fldrslt \expnd0\expndtw0\kerning0
+\ul https://hexed.it/?hl=en}} )\'a0 Change the byte at 
+\b \expnd0\expndtw0\kerning0
+offset 36
+\b0 \expnd0\expndtw0\kerning0
+ from 2 or 3\'a0 to 
+\b \expnd0\expndtw0\kerning0
+4
+\b0 \expnd0\expndtw0\kerning0
+ (simulating a V
+\b \expnd0\expndtw0\kerning0
+4
+\b0 \expnd0\expndtw0\kerning0
+.xxxx firmware)\
+then copy it via FTP to 192.168.42.1
+\fs36 \cf2 \expnd0\expndtw0\kerning0
+:51
+\fs32 \cf0 \expnd0\expndtw0\kerning0
+ (at port 51 there listens an FTP daemon working on /update with write access!)\
+and reboot.\
+\'a0\
+Warning1: programmers start to count from 0\'a0\
+Warning2: 2,3 and 4 are binary values, not the ascii character value of the character 4\
+\'a0\
+\'a0Finally I manged to get a hex dump in here.\'a0 You want to change the red 03 to, say, 04:\
+\pard\pardeftab720
+
+\f1\fs26 \cf3 \cb4 \expnd0\expndtw0\kerning0
+50 4c 46 21 0d 00 00 00 38 00 00 00 14 00 00 00\
+02 00 00 00 00 00 00 00 06 00 00 00 68 00 00 00\
+5c 64 55 2a \cf2 \expnd0\expndtw0\kerning0
+03 00 00 00\cf3 \expnd0\expndtw0\kerning0
+ 02 00 00 00 00 00 00 00\
+00 00 00 00 58 7a 1c 01 0b 00 00 00 58 02 00 00\
+74 50 0e c8 00 00 00 00 00 00 00 00 00 00 00 00\
+05 00 00 00 09 00 00 00 37 00 00 00 00 00 00 00\
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\
+07 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\
+00 00 00 00 62 6f 6f 74 6c 6f 61 64 65 72 00 00\
+\pard\pardeftab720
+
+\f0\fs32 \cf0 \cb1 \expnd0\expndtw0\kerning0
+\
+\pard\pardeftab720
+
+\fs28 \cf0 \expnd0\expndtw0\kerning0
+Add Tag...}
